@@ -1,0 +1,77 @@
+2026-05-02 07:58:08 | INFO     | ============================================================
+2026-05-02 07:58:08 | INFO     |   INICIO SIMULACIÓN — SOFTWARE FJ
+2026-05-02 07:58:09 | INFO     | ============================================================
+2026-05-02 07:58:09 | INFO     | Servicio creado: S1 | Sala Ejecutiva A | $80000/h
+2026-05-02 07:58:09 | INFO     | Sala creada: capacidad=10, proyector=True
+2026-05-02 07:58:09 | INFO     | Servicio creado: S2 | Sala de Conferencias | $120000/h
+2026-05-02 07:58:09 | INFO     | Sala creada: capacidad=30, proyector=True
+2026-05-02 07:58:09 | INFO     | Servicio creado: E1 | Laptop HP ProBook | $25000/h
+2026-05-02 07:58:09 | INFO     | Equipo creado: tipo=laptop, unidades=5
+2026-05-02 07:58:09 | INFO     | Servicio creado: E2 | Servidor Dell | $150000/h
+2026-05-02 07:58:09 | INFO     | Equipo creado: tipo=servidor, unidades=2
+2026-05-02 07:58:09 | INFO     | Servicio creado: A1 | Asesoría en Ciberseguridad | $200000/h
+2026-05-02 07:58:09 | INFO     | Asesoría creada: especialidad=seguridad, asesor=Ing. García
+2026-05-02 07:58:09 | INFO     | Servicio creado: A2 | Asesoría en Datos | $180000/h
+2026-05-02 07:58:09 | INFO     | Asesoría creada: especialidad=datos, asesor=Ing. Rodríguez
+2026-05-02 07:58:09 | INFO     | Catálogo de servicios cargado exitosamente.
+2026-05-02 07:58:09 | INFO     | Cliente creado: C001 | Ana Torres | ana.torres@mail.com
+2026-05-02 07:58:09 | INFO     | Cliente creado: C002 | Luis Gómez | lgomez@empresa.co
+2026-05-02 07:58:09 | INFO     | Cliente creado: C003 | María Pérez | mperez@gmail.com
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [S1]: base=$192000.00 desc=0% iva=sí total=$228480.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [S1]: base=$192000.00 desc=15% iva=sí total=$194208.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [S2]: base=$331200.00 desc=0% iva=sí total=$394128.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [S2]: base=$331200.00 desc=15% iva=sí total=$335008.80
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [E1]: base=$50000.00 desc=0% iva=sí total=$59500.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [E1]: base=$50000.00 desc=15% iva=sí total=$50575.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [E2]: base=$390000.00 desc=0% iva=sí total=$464100.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [E2]: base=$390000.00 desc=15% iva=sí total=$394485.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$500000.00 desc=0% iva=sí total=$595000.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$500000.00 desc=15% iva=sí total=$505750.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A2]: base=$432000.00 desc=0% iva=sí total=$514080.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A2]: base=$432000.00 desc=15% iva=sí total=$436968.00
+2026-05-02 07:58:09 | INFO     | Servicio creado: S_ERR1 | Sala fantasma | $50000/h
+2026-05-02 07:58:09 | INFO     | Servicio creado: E_ERR1 | Equipo raro | $10000/h
+2026-05-02 07:58:09 | INFO     | Servicio creado: A_ERR1 | Asesoría mágica | $300000/h
+2026-05-02 07:58:09 | INFO     | Reserva creada: R001 | Cliente: C001 | Servicio: S1 | 3.0h
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [S1]: base=$288000.00 desc=0.0% iva=sí total=$342720.00
+2026-05-02 07:58:09 | INFO     | Reserva confirmada: R001 | Costo: $342,720.00
+2026-05-02 07:58:09 | DEBUG    | Proceso de confirmación finalizado para reserva R001.
+2026-05-02 07:58:09 | INFO     | Reserva creada: R002 | Cliente: C002 | Servicio: E1 | 2.0h
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [E1]: base=$50000.00 desc=10.0% iva=sí total=$53550.00
+2026-05-02 07:58:09 | INFO     | Reserva confirmada: R002 | Costo: $53,550.00
+2026-05-02 07:58:09 | DEBUG    | Proceso de confirmación finalizado para reserva R002.
+2026-05-02 07:58:09 | INFO     | Reserva creada: R003 | Cliente: C003 | Servicio: A1 | 5.0h
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$1125000.00 desc=0.0% iva=no total=$1125000.00
+2026-05-02 07:58:09 | INFO     | Reserva confirmada: R003 | Costo: $1,125,000.00
+2026-05-02 07:58:09 | DEBUG    | Proceso de confirmación finalizado para reserva R003.
+2026-05-02 07:58:09 | WARNING  | Servicio deshabilitado: S2
+2026-05-02 07:58:09 | INFO     | Servicio habilitado: S2
+2026-05-02 07:58:09 | INFO     | Reserva creada: R_ERR2 | Cliente: C002 | Servicio: E1 | 0.1h
+2026-05-02 07:58:09 | ERROR    | No se pudo confirmar reserva R_ERR2: estado inválido.
+2026-05-02 07:58:09 | DEBUG    | Proceso de confirmación finalizado para reserva R_ERR2.
+2026-05-02 07:58:09 | WARNING  | Cliente desactivado: C003
+2026-05-02 07:58:09 | INFO     | Cliente reactivado: C003
+2026-05-02 07:58:09 | INFO     | Reserva creada: R004 | Cliente: C001 | Servicio: S2 | 1.5h
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [S2]: base=$248400.00 desc=0.0% iva=sí total=$295596.00
+2026-05-02 07:58:09 | INFO     | Reserva confirmada: R004 | Costo: $295,596.00
+2026-05-02 07:58:09 | DEBUG    | Proceso de confirmación finalizado para reserva R004.
+2026-05-02 07:58:09 | WARNING  | Reserva cancelada: R004
+2026-05-02 07:58:09 | DEBUG    | Proceso de cancelación finalizado para reserva R004.
+2026-05-02 07:58:09 | WARNING  | Cancelación fallida para reserva R004.
+2026-05-02 07:58:09 | DEBUG    | Proceso de cancelación finalizado para reserva R004.
+2026-05-02 07:58:09 | INFO     | Urgencia actualizada para A2: urgente
+2026-05-02 07:58:09 | INFO     | Reserva creada: R005 | Cliente: C002 | Servicio: A2 | 3.0h
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A2]: base=$972000.00 desc=5.0% iva=sí total=$1098846.00
+2026-05-02 07:58:09 | INFO     | Reserva confirmada: R005 | Costo: $1,098,846.00
+2026-05-02 07:58:09 | DEBUG    | Proceso de confirmación finalizado para reserva R005.
+2026-05-02 07:58:09 | INFO     | Reserva completada: R005
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$500000.00 desc=0.0% iva=sí total=$595000.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$500000.00 desc=0.0% iva=no total=$500000.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$500000.00 desc=20% iva=sí total=$476000.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$500000.00 desc=20% iva=no total=$400000.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$1125000.00 desc=0.0% iva=sí total=$1338750.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$1125000.00 desc=10% iva=sí total=$1204875.00
+2026-05-02 07:58:09 | DEBUG    | Costo calculado [A1]: base=$125000.00 desc=0.0% iva=sí total=$148750.00
+2026-05-02 07:58:09 | INFO     | ============================================================
+2026-05-02 07:58:09 | INFO     |   SIMULACIÓN COMPLETADA
+2026-05-02 07:58:09 | INFO     | ============================================================
